@@ -1,5 +1,5 @@
-#This returns the number of characters in my name 
-#The will return the following when run: "The number of characters in my name is 5"
+#It will return the following when run: "The number of characters in my name is 5"
+#str() is a function which takes one argument (whose type is a number) and returns a value (whose type is a string) representing that number.
 
 my_name = "Jenny"
 name_length = len(my_name)
