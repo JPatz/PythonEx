@@ -1,0 +1,16 @@
+#The output for this will be:
+#Ho Greg!
+#Yo Greg!
+#Hi Greg!
+
+greeting = "Hi Greg!"
+
+#Replace i with o
+print(greeting.replace("i", "o"))
+
+#We can replace more than one character
+print(greeting.replace("Hi","Yo!"))
+
+#The original variable is not affected
+print(greeting)
+
