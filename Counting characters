@@ -1,0 +1,6 @@
+#This returns the number of characters in my name 
+#The will return the following when run: "The number of characters in my name is 5"
+
+my_name = "Jenny"
+name_length = len(my_name)
+print("The number of characters in my name is " + str(name_length))
