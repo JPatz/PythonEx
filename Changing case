@@ -1,0 +1,7 @@
+#Converting a string to lower case by using a method that belongs to strings.
+#A method is like a function but it belongs to the string type.
+
+#This will print my name all in lower case characters 
+
+my_name = "Jenny"
+print(my_name.lower())
