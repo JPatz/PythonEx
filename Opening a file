@@ -1,0 +1,8 @@
+#As in the real world, we have to open a file before we can read what is inside.
+#In Python we use open() which takes one argument - a string - which contains the name of the file and - and returns a file object.
+#The way in which we use a file object is different to strings and numbers. We use methods.
+
+my_file = open("first_line.txt")
+file_contents = my-file.read()
+print(file_contents)
+
