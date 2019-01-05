@@ -1,0 +1,19 @@
+#The string "first.line.txt" is stored in the variable my_file_name (line 6)
+#Next we use the variable my_file_name as the argument to the open () function and store the resulting file object to the 
+#variable my_file (line 7)
+#Finally we call the read() method on the variable my_file and store the resulting string in the variable my_file_contents.
+
+
+my_file_name = "first_line.txt
+my_file_name = open(my_file_name)
+my_file_contents = my_file.read()
+
+
+#The variable names are arbitary so we could have used other names, for example, what follows is the same as the above,
+#except that it is harder to understand.
+#NB. The file name, first_line.txt is not an arbitary name, it must correspond to the name of a file on the hard drive of
+#your computer otherwise it will cause an error. 
+
+apple = "first_line.txt"
+banana = open(apple)
+grape = banana.read()
