@@ -1,0 +1,19 @@
+#Instead of counting the number of 'n' letters in our word, we might want to know their position
+#We can do this by using find() which takes a simple string argument and returns a number which is the position at which the 
+#substring first appears.
+#Remember that we count from zero rather than one.
+
+#Output:
+#3
+#6
+#-1 since the location of the substring doesn't exist.
+
+
+word ="spontaneous"
+print (str(word.find("n")))
+print (str(word.find("ne")))
+print (str(word.find("x")))
+
+
+
+
