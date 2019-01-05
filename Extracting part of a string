@@ -1,0 +1,19 @@
+#We can use this method if we have a long string but only require a portion of it - called taking a substring.
+#To get a substring we follow the variable name with a pair of [] which enclose a start and stop position, separated by a colon.
+
+#The output will be:
+#nt
+#spon
+#aneous
+
+word = "spontaneous"
+
+#print letters three to five
+print(word[3:5])
+
+#Positions start at zero not one
+print(word[0:4])
+
+#If we leave out the stop position it goes to the end of the string
+print(word[5:])
+
